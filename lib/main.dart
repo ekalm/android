@@ -11,14 +11,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Covid-19 App',
+      title: "Covid-19 App"
       theme: ThemeData(
         primaryColor: kPrimaryColor,
-        scaffoldBackgroundColor = kBackgroundColor,
-        textTheme: Theme.of(context).textTheme.apply(displayColor: kTextColor),
-      ), // ThemeData
-      home HomeScreen(),
-    ); // Material App
+        scaffoldBackgroundColor: kBackgroundColor
+        textTheme: Theme.of(context).textTheme.apply(displayColor: ktextColor)
+      ),
+      home: HomeScreen(),
+    );
   }
 }
 
